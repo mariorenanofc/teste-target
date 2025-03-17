@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Técnico - Desenvolvedor 2</title>
+    <link rel="stylesheet" type="text/css" href="/web/style.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Bem-vindo ao Teste Técnico</h1>
+            <p>Este é um projeto para demonstrar minhas habilidades em desenvolvimento web e Python.</p>
+            <button class="cta-button" onclick="showChallenges()">Abrir testes</button>
+        </div>
+    </div>
+    <div id="challenges" class="challenges-section" style="display: none;">
+        
+        <div class="questao" id="questao1">
+            <h2>Questão 1: Cálculo de SOMA</h2>
+            <button onclick="calcularSoma()">Calcular Soma</button>
+            <p id="resultado1"></p>
+        </div>
+        <div class="questao" id="questao2">
+            <h2>Questão 2: Sequência de Fibonacci</h2>
+            <input type="number" id="numeroFibonacci" placeholder="Número">
+            <button onclick="verificarFibonacci()">Verificar</button>
+            <p id="resultado2"></p>
+        </div>
+        <div class="questao" id="questao3">
+            <h2>Questão 3: Faturamento Diário</h2>
+            <button onclick="analisarFaturamento()">Analisar Faturamento</button>
+            <p id="resultado3"></p>
+        </div>
+        <div class="questao" id="questao4">
+            <h2>Questão 4: Percentual de Faturamento por Estado</h2>
+            <button onclick="calcularPercentual()">Calcular Percentual</button>
+            <p id="resultado4"></p>
+        </div>
+        <div class="questao" id="questao5">
+            <h2>Questão 5: Inversão de String</h2>
+            <input type="text" id="stringInverter" placeholder="String">
+            <button onclick="inverterString()">Inverter</button>
+            <p id="resultado5"></p>
+        </div>
+    
+
+    <script src="/web/script.js"></script>
+</body>
+</html>
